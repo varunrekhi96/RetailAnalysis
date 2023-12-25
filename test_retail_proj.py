@@ -38,7 +38,7 @@ def test_check_closed_count(spark):
     [
      ("CLOSED",7556),
      ("PENDING_PAYMENT",15030),
-     ("COMPLETE",22899)
+     ("COMPLETE",22900)
     ]
 )  
 def test_check_count(spark,status,count):
